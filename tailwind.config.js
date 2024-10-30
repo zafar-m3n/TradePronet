@@ -2,10 +2,15 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: ["Syne", "sans-serif"], 
+        body: ["Mulish", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
